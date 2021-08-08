@@ -31,7 +31,7 @@ export class ReviewController {
   }
 
   @Get('byProduct/:productId')
-  async getByProduct(@Param('id') id: string) {
+  async getByProduct(@Param('productId') id: string) {
     return this.reviewService.findByProductId(id);
   }
 }
