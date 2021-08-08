@@ -40,7 +40,7 @@
     "quotemark": [true, "single"],
     "semicolon": [false, "always"],
     "trailing-comma": false,
-    "indent": [true, "tabs", 4],
+    "indent": [false, "tabs", 4],
     "linterOptions": {
       "exclude": ["./src/**/*.d.ts"]
     }
